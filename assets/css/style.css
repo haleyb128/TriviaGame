@@ -1,0 +1,55 @@
+#startGameButton {
+    background-color: rgb(190, 150, 40);
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    padding: 20px;
+    margin-top: 20%;
+
+}
+/* 
+#submitButton {
+    background-color: #f4511e;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Cinzel', serif;
+} */
+
+.bold {
+    font-weight: bold;
+}
+
+#gameWrapper,
+#resultsWrapper {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.nextButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: lightgrey;
+    /*clear: both;*/
+    color: red;
+    font-family:'Cinzel', serif;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+body {
+    height: 100vh;
+    background-image: url("../images/grailBackground.jpg");
+    background-size: 100%;
+	margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
